@@ -3,3 +3,4 @@ pandas==2.1.4
 scikit_learn==1.3.2
 numpy==1.26.3
 PyMysql==1.1.1
+python-dotenv==1.0.1
