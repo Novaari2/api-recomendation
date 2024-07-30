@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  app:
+    image: api-recomendation
+    container_name: recomendation
+    build: .
+    env_file: .env
+    ports:
+      - '9090:5000'
+    networks: 
+      - default
+
+networks:
+  default:
+    driver: bridge
